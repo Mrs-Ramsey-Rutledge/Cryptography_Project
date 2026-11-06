@@ -1,0 +1,24 @@
+\section{Block Ciphers}
+
+A block cipher is an encryption technique that processes data in fixed-size groups, called blocks. Unlike a Caesar cipher, which shifts individual letters, block ciphers transform groups of characters together using an encryption key.\\
+
+\noindent For this challenge, you will implement a simplified block cipher that rearranges characters within fixed-size blocks. Each block will contain four characters, and the encryption key will determine the order in which those characters appear in the encrypted message.\\
+
+\noindent Your encryption key is:
+\[
+\text{Key} = [1,4,3,2]
+\]
+
+\noindent Your block cipher encoder and decoder should
+\begin{itemize}
+    \item Accept a plaintext message and divides it into blocks of four characters
+    \item Use a one-dimensional integer array to store the encryption key
+    \item Use loops and arrays to rearrange characters within each block
+    \item Produce ciphertext by applying the encryption key to each block
+    \item Decrypt ciphertext by reversing the encryption process
+    \item Correctly handle messages whose lengths are not multiples of four
+\end{itemize}
+
+\noindent You may use a padding character of your choice to complete the final block. Make sure your program can distinguish padding from the original message when decrypting.\\
+
+\noindent \textbf{Deliverable:} Paste your completed Java code into the writeup. Include an example of an encrypted message and its successful decryption.

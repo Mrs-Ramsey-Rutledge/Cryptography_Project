@@ -21,4 +21,4 @@ A block cipher is an encryption technique that processes data in fixed-size grou
 
 \noindent You may use a padding character of your choice to complete the final block. Make sure your program can distinguish padding from the original message when decrypting.\\
 
-\noindent \textbf{Deliverable:} Paste your completed Java code into the writeup. Include an example of an encrypted message and its successful decryption.
+\noindent \textbf{Deliverable:} Paste your completed Java code into the writeup. Include two examples of it working. First, provide an example of any encrypted message and its successful decryption. Additionally, decrypt the following message:Fdni eht xentts ea ptth t:sp/rm/sar-myes-turlgdeeig.tbuh./oi 
